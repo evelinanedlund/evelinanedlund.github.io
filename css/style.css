@@ -1,0 +1,25 @@
+/* THIS IS A CSS COMMENT */
+
+h1 {color: mediumturquoise;
+  font-size: 64px;
+  font-weight: "bold";
+}
+
+h2 {color: powderblue;
+  text-align: "center";
+  font-size: 32px;
+  font-family: Arial, sans-serif;
+}
+
+b {color: orchid;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+p {font-size: 18px;
+  font-family: "Times New Roman", serif;
+}
+
+img {max-width: 600px;
+     max-height: auto;
+}
