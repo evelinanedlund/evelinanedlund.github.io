@@ -1,0 +1,42 @@
+/* ----------------
+Colors
+black text
+white background
+orange links and header background
+FONTS:
+h1, h2, h3, blockquote, figcaption { font-family: 'Fira Sans',
+sans-serif; }
+p, font-family: 'Merriweather', serif;
+Links
+------------------ */
+
+/* styles that apply to everything in general */
+
+html {
+  box-sizing: "border-box";
+}
+
+* {
+  box-sizing: "inherit";
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  color: black;
+  line-height: 1.5;
+  background-color: white;
+}
+
+header {
+  background-color: orange
+  text-align: 'center';
+}
+
+.display {
+  font-family: 'Fira Sans';
+  font-size: 68px;
+  color: white;
+  line-height: 1.2
+  padding: 20px 20px 10px 20px /* Top Right Bottom Left */
+}
