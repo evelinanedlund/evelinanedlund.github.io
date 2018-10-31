@@ -19,7 +19,7 @@ li {
 
 /*FONTS STYLES*/
 
-h1, h2, h3, .summary, #byline, figcaption, blockquote {
+h1, h2, h3, #byline, figcaption, blockquote {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -29,12 +29,15 @@ h1 {
   text-align: center;
   font-weight: 700;
   line-height: 1.3;
-  padding-left: 10px 15px;
+  padding: 20px 60px; /* Rule of TRBLE or top right bottom left */
 }
 
 h2 {
-  font-size: 30px;
-  line-height: 1.5;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3;
+  padding: 10px 60px;
   text-align: center;
 }
 
@@ -44,14 +47,6 @@ h3 {
   text-align: center;
 }
 
-.summary {
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.3;
-  padding: 10px 15px;
-  text-align:
-}
 
 #byline {
   font-size: 14px;
@@ -101,7 +96,7 @@ nav {
 }
 
 header {
-  background-size: 'cover';
+  background-size: cover;
 }
 
 article {
@@ -119,18 +114,23 @@ footer {
 
 /* IMAGES */
 
+figure {
+  display: block;
+  margin: 0px;
+}
+
 img {
   max-width: 100%;
-  height: 'auto';
+  height: auto;
 }
 
-.imagewrapper {
-  display: 'flex';
-  flex-direction: 'row';
-  justify-content: 'space-between';
+.imagescontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.imagewrapper figure {
+.imagescontainer figure {
   max-width: 100%;
-  height: 'auto';
+  height: auto;
 }
