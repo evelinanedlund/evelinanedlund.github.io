@@ -29,7 +29,7 @@ h1 {
   text-align: center;
   font-weight: 700;
   line-height: 1.3;
-  padding: 20px 60px; /* Rule of TRBLE or top right bottom left */
+  padding: 20px 160px; /* Rule of TRBLE or top right bottom left */
 }
 
 h2 {
@@ -37,7 +37,7 @@ h2 {
   font-style: normal;
   font-weight: 700;
   line-height: 1.3;
-  padding: 10px 60px;
+  padding: 10px 140px;
   text-align: center;
 }
 
