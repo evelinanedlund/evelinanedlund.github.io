@@ -31,6 +31,7 @@ h1 {
   font-weight: 700;
   line-height: 1.3;
   padding: 20px 200px; /* Rule of TRBLE or top right bottom left */
+  background-color: #ffcccc
 }
 
 /* This is for the subheader that comes after the headline */
