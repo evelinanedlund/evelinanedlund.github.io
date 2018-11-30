@@ -25,22 +25,22 @@ h1, h2, h3, #byline, figcaption, blockquote {
 
 /* This is for my top headline */
 h1 {
-  font-size: 64px;
+  font-size: 60px;
   font-style: normal;
   text-align: center;
   font-weight: 700;
   line-height: 1.3;
-  padding: 20px 200px; /* Rule of TRBLE or top right bottom left */
-  background-color: #ffcccc
+  padding: 20px 300px; /* Rule of TRBLE or top right bottom left */
+  background-color: #99ccff
 }
 
 /* This is for the subheader that comes after the headline */
 h2 {
-  font-size: 32px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.3;
-  padding: 10px 200px;
+  padding: 10px 380px;
   text-align: center;
 }
 
